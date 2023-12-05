@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavbarResponsive from "@/components/NavbarResponsive";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <>
+        <Script
+          strategy="afterInteractive"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-F4932KY45Z"
+        />
+        <Script>{`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F4932KY45Z');
+`}</Script>
+      </>
       <body className={inter.className}>
         <main>
           <NavbarResponsive />
