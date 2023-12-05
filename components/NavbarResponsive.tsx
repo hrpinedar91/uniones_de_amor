@@ -38,18 +38,12 @@ const NavbarResponsive = () => {
                 >
                   Testimonios
                 </Link>
-                {/* <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Contacto
-                </a> */}
 
                 <Link
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href={"https://tailwindcomponents.com/cheatsheet/"}
                 >
-                  <Button fill="000">Consulta Gratis</Button>
+                  <Button bg="044343">Consulta Gratis</Button>
                 </Link>
               </div>
             </div>
