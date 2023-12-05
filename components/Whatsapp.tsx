@@ -4,7 +4,7 @@ const WhatsappButton: React.FC = () => {
   return (
     <div className="fixed bottom-4 right-4">
       <a
-        href="https://api.whatsapp.com/send?phone=1234567890"
+        href="wa.link/elzn18"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-green-500 rounded-full"

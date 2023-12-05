@@ -4,6 +4,7 @@ import CardTestimonio from "@/components/CardTestimonio";
 import Footer from "@/components/Footer";
 import WhatsappButton from "@/components/Whatsapp";
 import Image from "next/image";
+import Link from "next/link";
 
 const cardsData = [
   {
@@ -110,7 +111,9 @@ export default function HomePage() {
             src="/Illustration_desk.svg"
             alt="Imagen principal"
           />
-          <Button bg="044343">Agendar cita Whatsapp</Button>
+          <Link className="w-full" href="https://wa.link/elzn18">
+            <Button bg="044343">Agendar cita Whatsapp</Button>
+          </Link>
         </div>
         <div className="md:w-1/2">
           <Image
@@ -150,9 +153,11 @@ export default function HomePage() {
             respeto por las tradiciones. Con nosotros, recibirás el apoyo
             constante que necesitas para alcanzar tus objetivos espirituales.
           </p>
-          <button className="bg-[#e4e4e4] rounded-xl w-full mt-4 md:mt-0 text-black p-2">
-            Consulta Gratis
-          </button>
+          <Link className="w-full" href="https://wa.link/elzn18">
+            <button className="bg-[#e4e4e4] rounded-xl w-full mt-4 md:mt-0 text-black p-2">
+              Consulta Gratis
+            </button>
+          </Link>
         </div>
         <Image
           className="mx-auto mt-8 md:mt-0"

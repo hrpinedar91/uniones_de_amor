@@ -22,10 +22,7 @@ const Card = ({ title, description, image }: Props) => {
       <div className="flex flex-col h-4/6 justify-between px-6 p-4">
         <h6 className="font-bold text-lg text-[#E4E4E4] mb-2">{title}</h6>
         <p className="text-[#E4E4E4] text-sm mb-4 text-wrap">{description}</p>
-        <Link className="w-full" href="https://wa.link/3ptlpi">
-          {/* <button className="bg-[#e4e4e4] rounded-xl w-full text-black p-2">
-            Consulta Gratis
-          </button> */}
+        <Link className="w-full" href="https://wa.link/elzn18">
           <Button bg="222222">Consulta Gratis</Button>
         </Link>
       </div>
