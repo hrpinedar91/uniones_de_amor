@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "¿Estás buscando el amor verdadero, pero no lo encuentras? ¿Quieres recuperar a tu ex, pero no sabes cómo? ¿Te sientes solo, triste o desesperado por tu situación sentimental? No te preocupes, tenemos la solución para ti. En Amarres de amor efectivos y rápidos te ofrecemos los mejores servicios de magia blanca, rituales, hechizos y conjuros para solucionar tus problemas de amor. Contamos con un equipo de expertos que te asesorarán y te guiarán paso a paso para lograr tus objetivos.",
   verification: {
-    google: "your-verification-id",
+    google: "cYaufhQZoE8osninkmlf-QmN4EFIM3-rZab5aRoLFnk",
   },
 };
 
