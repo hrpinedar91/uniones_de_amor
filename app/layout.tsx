@@ -48,6 +48,14 @@ export default function RootLayout({
       {/* End Google Tag Manager */}
 
       <body className={inter.className}>
+        {/* Google Tag Manager (noscript) */}
+
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-WL6DQ84P"
+          height="0"
+          width="0"
+        />
+
         <main>
           <NavbarResponsive />
           {children}

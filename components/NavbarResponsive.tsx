@@ -21,7 +21,9 @@ const NavbarResponsive = () => {
               {/* <img className="h-8 w-8" src="/logo.svg" alt="Logo" /> */}
               <div className="flex items-center gap-4">
                 <Image src={"/avatar.svg"} alt="Logo" width={32} height={32} />
-                <span className="font-bold text-white">Unión para siempre</span>
+                <span className="font-bold text-white">
+                  Uniones para siempre
+                </span>
               </div>
             </div>
             <div className="hidden md:block">
