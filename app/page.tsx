@@ -72,7 +72,7 @@ const cardsTestimonios = [
   },
   {
     name: "Luisa Vargas",
-    country: "Costa Riza",
+    country: "Costa Rica",
     description:
       "“La purificación que hice eliminó toda la negatividad de mi vida. Me siento renovada y llena de energía positiva.”",
   },
@@ -115,7 +115,9 @@ export default function HomePage() {
             className="w-full"
             href="https://api.whatsapp.com/send?phone=+3248267662&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20puedes%20ayudarme%20con%20un%20problema%20amoroso.%20He%20le%C3%ADdo%20que%20eres%20experto%20en%20uniones%20de%20amor%20y%20me%20gustar%C3%ADa%20hacer%20uno%20para%20recuperar%20a%20mi%20ex%20pareja.%20%C2%BFQu%C3%A9%20necesito%20para%20hacerlo?%20%C2%BFQu%C3%A9%20garant%C3%ADas%20me%20ofreces?%20%C2%BFCu%C3%A1nto%20cuesta%20tu%20servicio?%20Espero%20tu%20respuesta,%20gracias.%20%F0%9F%98%8A"
           >
-            <Button bg="044343">Agendar cita Whatsapp</Button>
+            <Button bg="044343" id="cta_hero">
+              Agendar cita Whatsapp
+            </Button>
           </Link>
         </div>
         <div className="md:w-1/2">
@@ -160,7 +162,10 @@ export default function HomePage() {
             className="w-full"
             href="https://api.whatsapp.com/send?phone=+3248267662&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20puedes%20ayudarme%20con%20un%20problema%20amoroso.%20He%20le%C3%ADdo%20que%20eres%20experto%20en%20uniones%20de%20amor%20y%20me%20gustar%C3%ADa%20hacer%20uno%20para%20recuperar%20a%20mi%20ex%20pareja.%20%C2%BFQu%C3%A9%20necesito%20para%20hacerlo?%20%C2%BFQu%C3%A9%20garant%C3%ADas%20me%20ofreces?%20%C2%BFCu%C3%A1nto%20cuesta%20tu%20servicio?%20Espero%20tu%20respuesta,%20gracias.%20%F0%9F%98%8A"
           >
-            <button className="bg-[#e4e4e4] rounded-xl w-full mt-4 md:mt-0 text-black p-2">
+            <button
+              id="cta-expert"
+              className="bg-[#e4e4e4] rounded-xl w-full mt-4 md:mt-0 text-black p-2"
+            >
               Consulta Gratis
             </button>
           </Link>

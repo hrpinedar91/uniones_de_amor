@@ -23,7 +23,9 @@ const Card = ({ title, description, image }: Props) => {
         <h6 className="font-bold text-lg text-[#E4E4E4] mb-2">{title}</h6>
         <p className="text-[#E4E4E4] text-sm mb-4 text-wrap">{description}</p>
         <Link className="w-full" href="https://wa.link/elzn18">
-          <Button bg="222222">Consulta Gratis</Button>
+          <Button bg="222222" id={title}>
+            Consulta Gratis
+          </Button>
         </Link>
       </div>
     </div>
