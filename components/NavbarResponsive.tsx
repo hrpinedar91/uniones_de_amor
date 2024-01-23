@@ -48,7 +48,7 @@ const NavbarResponsive = () => {
                   }
                 >
                   <Button bg="044343" id="btn-menu">
-                    Consulta Gratis
+                    Consultar
                   </Button>
                 </Link>
               </div>

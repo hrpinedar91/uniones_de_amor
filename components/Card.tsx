@@ -24,7 +24,7 @@ const Card = ({ title, description, image }: Props) => {
         <p className="text-[#E4E4E4] text-sm mb-4 text-wrap">{description}</p>
         <Link className="w-full" href="https://wa.me/573248267662?text=Hola.%20Podrias%20ayudarme%20con%20una%20consulta.">
           <Button bg="222222" id={title}>
-            Consulta Gratis
+            Consultar
           </Button>
         </Link>
       </div>

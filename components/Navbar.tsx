@@ -74,7 +74,7 @@ export const Navbar = () => {
           href="https://wa.me/573248267662?text=Hola.%20Podrias%20ayudarme%20con%20una%20consulta."
           className="btn bg-[#044343] text-white my-3 mr-14"
         >
-          Consulta Gratis
+          Consultar
         </a>
       </div>
     </div>

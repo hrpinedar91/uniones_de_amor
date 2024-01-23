@@ -101,8 +101,7 @@ export default function HomePage() {
           <p className="text-lg md:mt-4 text-white text-justify">
             ¿Quieres recuperar a tu pareja, atraer a tu amor imposible, mejorar
             tu relación o alejar a tu rival? Si estás buscando una solución
-            definitiva a tus problemas sentimentales, has llegado al lugar
-            indicado.
+            definitiva a tus problemas sentimentales.
           </p>
           <Image
             className="w-full md:hidden"
@@ -139,7 +138,7 @@ export default function HomePage() {
       <p className="p-4 md:w-3/5 mx-auto text-white text-center">
         ¡NO Te resignes a perderlo!, confía tus dificultades a Profesionales
         maestros expertos, que con su conocimiento y sabiduría pueden realizar
-        amarres, cualquier tipo de hechizos para retener a tu ser amado, magia
+        amarres, cualquier tipo de hechizos para estar al lado de tu ser amado, magia
         blanca, rituales y conjuros entre parejas, sin causar daño.
       </p>
       <div className="flex md:grid w-4/5 mx-auto md:grid-cols-auto-fit-100 mb-8 plan_container_slider overflow-x-scroll md:overflow-x-hidden overscroll-x-contain scroll-snap-x-proximit gap-8 p-4 md:p-12">
@@ -166,7 +165,7 @@ export default function HomePage() {
               id="cta-expert"
               className="bg-[#e4e4e4] rounded-xl w-full mt-4 md:mt-0 text-black p-2"
             >
-              Consulta Gratis
+              Consultar
             </button>
           </Link>
         </div>
